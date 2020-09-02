@@ -48,8 +48,7 @@
             color: #333;
             font-style: normal;
         }
-        h1+*, h2+*, h3+*, h4+*, h5+*, h6+* {
-        }
+
         h1, h2, h3 {
             color: black;
         }
@@ -61,6 +60,48 @@
             color: #0056b3;
         }
         /**********  Elements Ends ***********/
+
+        /*********** Privacy Section Starts ************/
+        .image.performance.bottom {
+            width: 900px;
+            height: 631px;
+            background-size: 900px 631px;
+            background-repeat: no-repeat;
+            background-image: url(https://www.apple.com/v/ipad-mini/i/images/overview/ipad_horizontal_black__fr9d4rhl74i2_large.png);
+        }
+        /* .desc-paragraph.privacy {
+            margin-top: 200px
+          } */
+        @media only screen and (max-width: 1068px) {
+          #bottom_1 {
+            order: 2;
+          }
+          #bottom_2 {
+            order: 1;
+          }
+          .desc-paragraph.privacy {
+            margin-top: 50px;
+            left: 50px;
+          }
+          .icon-copy.privacy {
+            margin-left: 50px
+          }
+        }
+        @media only screen and (max-width: 735px) {
+          .desc-paragraph.privacy {
+            font-size: 21px;
+            line-height: 1.19048;
+            font-weight: 600;
+            letter-spacing: .011em;
+            margin-top: 100px;
+            width: 350px;
+          }
+          .icon-copy.privacy {
+            margin-left: -10px;
+            width: 50px;
+          }
+        }
+        /*********** Privacy Section Ends ************/
 
 
         /********** Header Section Starts *********/
@@ -515,7 +556,7 @@
                 margin-left: 53px;
             }
         }
-        @media only screen and (max-width: 768px) {
+        /* @media only screen and (max-width: 768px) {
             .image.design {
                 margin-top: 90px;
                 width: 417px;
@@ -523,7 +564,7 @@
                 background-size: 417px 293px;
                 margin-top: 90px;
             }
-        }
+        } */
         .section-design .screen {
             margin-left: 83px;
             margin-top: 30px;
@@ -594,7 +635,6 @@
             margin-left: -200px;
             margin-top: -140px;
         }
-
         @media screen and (max-width: 1068px){
             .image.image.performance {
                 width: 681px;
@@ -602,12 +642,6 @@
                 background-size: 681px 480px;
                 margin-top: 102px;
                 margin-left: 130px;
-            }
-        }
-        @media screen and (max-width: 992px){
-            .image.image.performance {
-                margin-top: 102px;
-                margin-left: 50px;
             }
         }
         @media only screen and (max-width: 768px) {
@@ -1026,6 +1060,21 @@
                 background-image: url(https://www.apple.com/v/ipad-mini/i/images/overview/apps__hyxuh0di6omu_small.png);
                 margin-left: -100%;
             }
+            .content-paragraph.apps-p {
+              width: 450px;
+            }
+            .content-headline.sub_header.apps {
+              width: 600px
+            }
+            .content-link {
+              font-size: 19px;
+              line-height: 1.42115;
+              font-weight: 400;
+              letter-spacing: .012em;
+            }
+            .apps.image {
+              margin-top: -60px
+            }
         }
 
         .section-apps {
@@ -1035,13 +1084,175 @@
 
         /********** iCloud Section Starts ***********/
         .section-iCloud {
-            margin-left: 30%;
+          margin-left: 30%;
         }
 
-        .iCloud-row2 {
-            padding-left: 50px
+        #iCloud-row2 {
+          padding-left: 477px;
+          width: 850px;
+        }
+        .content-headline.sub_header.iCloud {
+          width: 800px;
+        }
+        .content-paragraph.iCloud-p {
+          margin-top: 10px;
+        }
+        .image.ipad-pro.iCloud {
+          width: 642px;
+          height: 890px;
+          background-size: 642px 890px;
+          background-repeat: no-repeat;
+          background-image: url(https://www.apple.com/v/ipad-mini/i/images/overview/ipad_portrait_silver__ea16xlv6jvgy_large.png);
+          margin-left: -300px;
+          margin-top: -340px;
+        }
+        .image.ipad-air.iCloud {
+          width: 436px;
+          height: 688px;
+          background-size: 436px 688px;
+          background-repeat: no-repeat;
+          background-image: url(https://www.apple.com/v/ipad-mini/i/images/overview/icloud__dw1pau8n3eye_large.png);
+          margin-top: -50px;
+          margin-left: -150px;
+        }
+        #bottom_3 {
+          position: relative;
+          width: 500px;
+          left: 80px;
+          top: -100px;
+        }
+        @media only screen and (max-width: 1068px) {
+          #iCloud-row2 {
+            width: 1000px;
+            margin-left: -500px;
+          }
+          .content-headline.design.iCloud {
+              font-size: 48px;
+              line-height: 1.08365;
+              font-weight: 600;
+              letter-spacing: -.003em;
+              font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+          }
+          .content-headline.sub_header {
+              font-size: 48px;
+              line-height: 1.08365;
+              font-weight: 600;
+              letter-spacing: -.003em;
+              font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+          }
+          .content-headline.sub_header.iCloud {
+            width: 600px;
+          }
+          .content-paragraph.iCloud-p {
+            width: 600px;
+          }
+          .image.ipad-pro.iCloud {
+            width: 487px;
+            height: 674px;
+            background-size: 487px 674px;
+            background-repeat: no-repeat;
+            background-image: url(https://www.apple.com/v/ipad-mini/i/images/overview/ipad_portrait_silver__ea16xlv6jvgy_medium.png);
+            margin-left: -150px;
+            margin-top: -50px;
+          }
+        .image.ipad-air.iCloud {
+            width: 330px;
+            height: 520px;
+            background-size: 330px 520px;
+            background-repeat: no-repeat;
+            background-image: url(https://www.apple.com/v/ipad-mini/i/images/overview/icloud__dw1pau8n3eye_medium.png);
+            margin-top: 100px;
+            margin-left: -110px;
+          }
+
+          
+        }
+
+        @media only screen and (max-width: 735px) {
+          .content-headline.design.iCloud {
+            font-size: 40px;
+            line-height: 1.1;
+            font-weight: 600;
+            letter-spacing: 0em;
+          }
+          .content-headline.sub_header {
+            font-size: 40px;
+            line-height: 1.1;
+            font-weight: 600;
+            letter-spacing: 0em;
+          }
+          .content-headline.sub_header.iCloud {
+            width: 370px;
+          }
+          .content-paragraph.iCloud-p {
+            width: 430px;
+            margin-left: 10px;
+          }
+          .content-link.iCloud {
+            margin-left: 10px;
+          }
+          .image.ipad-pro.iCloud {
+            width: 299px;
+            height: 413px;
+            background-size: 299px 413px;
+            background-repeat: no-repeat;
+            background-image: url(https://www.apple.com/v/ipad-mini/i/images/overview/ipad_portrait_silver__ea16xlv6jvgy_small.png);
+            margin-top: -70px;
+          }
+          .image.ipad-air.iCloud {
+            width: 204px;
+            height: 321px;
+            background-size: 204px 321px;
+            background-repeat: no-repeat;
+            background-image: url(https://www.apple.com/v/ipad-mini/i/images/overview/icloud__dw1pau8n3eye_small.png);
+            margin-top: 20px;
+            margin-left: -90px;
+          }
+          
         }
         /*********** iCloud Section Ends ************/
+        .retina.empower {
+            width: 642px;
+            height: 890px;
+            background-size: 642px 890px;
+            background-repeat: no-repeat;
+            background-image: url(https://www.apple.com/v/ipad-mini/i/images/overview/ipad_portrait_gold__c5s9rkve9ay6_large.png);
+            position: relative;
+            margin-top: 100px;
+            margin-left: 146px;
+        }
+
+        @media only screen and (max-width: 1068px) {
+            .retina.empower {
+                top: 50px;
+                left: 0;
+                margin-left: 150px;
+                width: 486px;
+                height: 673px;
+                background-size: 486px 673px;
+                background-image: url(https://www.apple.com/v/ipad-mini/i/images/overview/ipad_portrait_gold__c5s9rkve9ay6_medium.png);
+            }
+            #empower_a {
+                order: 1;
+            }
+            #empower_b {
+                order: 2;
+            }
+        }
+        @media only screen and (max-width: 768px) {
+            .retina.empower {
+                position: relative;
+                margin-left: -140px;
+                margin-top: 79px;
+                left: 50%;
+                top: 0;
+            }
+  
+            .retina.empower {
+                background-image: url(https://www.apple.com/v/ipad-mini/i/images/overview/ipad_portrait_gold__c5s9rkve9ay6_small.png);
+            }
+        }
+
 
 
 
@@ -1143,7 +1354,7 @@
     <!----------- Performance Section Ends ----------->
     
 
-    <!----------- Retina Section Ends ----------->
+    <!----------- Retina Section Starts ----------->
     <section class="section section-retina">
         <div class="container">
             <div class="row">
@@ -1268,9 +1479,9 @@
             <div class="row apps">
                 <div class="col-8 first-column">
                     <h2 class="content-headline design apps">Apps</h2>
-                    <p class="content-headline sub_header"> Designed to help you get the most out of&nbsp;iPad.</p>
+                    <p class="content-headline sub_header apps"> Over a million ways <br class="medium">to use iPad&nbsp;mini.</p>
                     <p class="content-paragraph apps-p">iPad&nbsp;mini comes with powerful Apple-designed apps, like Photos, Maps, Messages, Apple&nbsp;News, Mail, and Safari. And with over a million iPad apps on the App&nbsp;Store, there’s an app for anything you want to do. Edit a video, check your social media, sketch an idea, and join a battle royale with&nbsp;friends.</p>
-                    <a href="https://www.apple.com/ipados/" class="content-link-wrapper arrow"><span class="content-link">Discover apps for iPad in the App Store</span><span class="content-link-after"></span></a>
+                    <a href="https://www.apple.com/ipados/" class="content-link-wrapper arrow"><span class="content-link apps">Discover apps for iPad in the App Store</span><span class="content-link-after"></span></a>
                 </div>
             </div>
             <div class="apps bottom">
@@ -1286,14 +1497,14 @@
             <div class="row apps">
                 <div class="row">
                     <div class="col-8 first-column">
-                        <h2 class="content-headline design apps">iCloud</h2>
-                        <p class="content-headline sub_header">The best place for all your photos, files, and more.</p>
+                        <h2 class="content-headline design iCloud">iCloud</h2>
+                        <p class="content-headline sub_header iCloud">The best place for all your photos, files, and more.</p>
                     </div>
                 </div>
-                <div class="row w-50" id="iCloud-row2">
+                <div class="row" id="iCloud-row2">
                     <div class="col">
                         <p class="content-paragraph iCloud-p">iCloud keeps things like your photos, files, and notes safe, current, and conveniently available on all your devices.<sup><a href="#footnote-7" class="footnote">5</a></sup> And the Files&nbsp;app lets you manage all your files — in iCloud&nbsp;Drive and on your iPad&nbsp;mini — in one central&nbsp;location.</p>
-                        <a href="https://www.apple.com/ipados/" class="content-link-wrapper arrow"><span class="content-link">Discover apps for iPad in the App Store</span><span class="content-link-after"></span></a>
+                        <a href="https://www.apple.com/ipados/" class="content-link-wrapper arrow"><span class="content-link iCloud">Learn more about iCloud</span><span class="content-link-after"></span></a>
                     </div>
                 </div>
             </div>
@@ -1301,12 +1512,12 @@
                 <div class="grid compare">
                     <div class="col item1">
                         <div class="compare-content">
-                            <figure class="image ipad-pro"></figure>
+                            <figure class="image ipad-pro iCloud"></figure>
                         </div>
                     </div>
                     <div class="col item2">
                         <div class="compare-content">
-                            <figure class="image ipad-air"></figure>
+                            <figure class="image ipad-air iCloud"></figure>
                         </div>
                     </div>
                 </div>
@@ -1314,6 +1525,65 @@
         </div>
     </section>
     <!----------- iCloud Section Ends ----------->
+
+
+
+    <!----------- Privacy Section Starts ----------->
+  <section class="section section-performance">
+    <div class="container">
+        <div class="row flex-column flex-sm-row">
+            <div class="col" id="bottom_1">
+                <figure class="image performance bottom">
+                    <figure class="perfect_for_AR"></figure>
+                    <figure class="screen"></figure>
+                </figure>
+            </div>
+            <div class="col performance-header" id="bottom_2">
+              <h2 class="content-headline design">Privacy <br class="small">and Security</h2>
+                <div class="">
+                  <p class="content-headline sub_header">Your data belongs&nbsp;to you. And only you.</p>
+                </div>
+                <div class="">
+                    <p class="content-paragraph performance">Like every Apple product, iPad&nbsp;mini was designed with your privacy and security in mind. Touch&nbsp;ID makes unlocking your iPad&nbsp;mini simple and secure. And you can make purchases conveniently and safely with Apple&nbsp;Pay. Just place your finger on the Touch&nbsp;ID sensor and you’re good to&nbsp;go.</p>
+                </div>
+            </div>
+            
+      </div>
+      <div class="col performance-header" id="bottom_3">
+        <div class="">
+          <p class="desc-paragraph privacy">At Apple, we believe privacy is a fundamental human right.</p>
+          <a href="/ipad/cellular/" class="content-link-wrapper arrow"><span class="content-link iCloud"><span class="icon-copy privacy">Learn more about Apple’s approach to privacy</span><span class="icon icon-after more"></span></a>
+        </div>
+      </div>
+    </div>
+</section>
+  <!----------- Privacy Section Ends ----------->
+
+
+  <!----------- Empower Section Starts ----------->
+  <section class="section section-retina">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6" id="empower_a">
+                <div class="retina-div">
+                    <h2 class="content-headline design">Accessibility</h2>
+                    <div class="">
+                        <p class="content-headline sub_header">Designed to empower everyone.</p>
+                    </div>
+                    <div class="">
+                        <p class="content-paragraph design">We believe technology is most powerful when everyone can use it. That’s why iPad mini comes with accessibility features that support vision, interaction, hearing, and learning needs. Like VoiceOver, which tells you what’s happening on your screen. Switch Control, which lets you interact with iPad mini without touching it. And Voice Control, which lets you control your iPad with just your voice.</p>
+                        <a href="https://www.apple.com/ipados/" class="content-link-wrapper arrow"><span class="content-link">Explore all accessibility features on iPad</span><span class="content-link-after"></span></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6" id="empower_b">
+                <figure class="retina empower">
+                </figure>
+            </div>
+        </div>
+    </div>
+</section>
+<!----------- Empower Section Ends ----------->
 
     <!----------------------------------------- Main Section Ends --------------------------------->
 
