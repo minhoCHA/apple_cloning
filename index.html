@@ -49,7 +49,6 @@
             font-style: normal;
         }
         h1+*, h2+*, h3+*, h4+*, h5+*, h6+* {
-            margin-top: .8em;
         }
         h1, h2, h3 {
             color: black;
@@ -69,7 +68,7 @@
             text-align: center;
             margin-left: auto;
             margin-right: auto;
-            margin-top: 271px;
+            /* margin-top: 271px; */
             background: #f5e9dd;
             padding-bottom: 0;
         }
@@ -117,6 +116,13 @@
                 margin-left: -500px;
                 margin-top: 120px;
             }
+            .desc-paragraph {
+                font-size: 21px;
+                line-height: 1.19048;
+                font-weight: 600;
+                letter-spacing: .011em;
+                font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+            }
         }
 
         @media only screen and (max-width: 735px) {
@@ -157,6 +163,36 @@
             font-weight: 600;
             letter-spacing: -.005em;
             font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+        }
+        @media only screen and (max-width: 735px) {
+            .content-headline {
+                font-size: 40px;
+                line-height: 1.1;
+                font-weight: 600;
+                letter-spacing: 0em;
+                font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+            }
+            .content-headline.content-headline.sub_header {
+                font-size: 40px;
+                line-height: 1.1;
+                font-weight: 600;
+                letter-spacing: 0em;
+                font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+            }
+            .content-paragraph {
+                font-size: 19px;
+                line-height: 1.42115;
+                font-weight: 400;
+                letter-spacing: .012em;
+                font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+            }
+            .desc-paragraph {
+                font-size: 21px;
+                line-height: 1.19048;
+                font-weight: 600;
+                letter-spacing: .011em;
+                font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+            }
         }
         .content-paragraph {
             font-size: 21px;
@@ -433,23 +469,586 @@
         .content-headline.design {
             color: #888;
         }
-        .content-paragraph .design .sub_header {
+        .content-headline.sub_header {
             font-size: 56px;
             line-height: 1.07143;
             font-weight: 600;
             letter-spacing: -.005em;
             font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
         }
+        .desc-paragraph {
+            font-size: 32px;
+            line-height: 1.125;
+            font-weight: 600;
+            letter-spacing: .004em;
+            font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+        }
+        .grid.desc {
+            grid-template-columns: repeat(1,1fr);
+            display: grid;
+            list-style-type: none!important;
+            padding-top: 1%;
+            grid-gap: 1rem 6.43902439%;
+            margin-bottom: 1rem;
+        }
+        /* @media screen and (max-width: 735px) {
+            .grid.desc {
+                background-color: red;
+                grid-template-columns: repeat(1,1fr);
+            }
+        } */
+        .image.design {
+            width: 900px;
+            height: 631px;
+            background-size: 900px 631px;
+            background-repeat: no-repeat;
+            margin-top: 120px;
+            margin-left: 100px;
+            background-image: url(https://www.apple.com/v/ipad-mini/i/images/overview/ipad_horizontal_silver__c2l1ltmney82_large.png);
+        }
+        @media only screen and (max-width: 1068px) {
+            .image.design {
+                width: 681px;
+                height: 480px;
+                background-size: 681px 480px;
+                margin-top: 102px;
+                margin-left: 53px;
+            }
+        }
+        @media only screen and (max-width: 768px) {
+            .image.design {
+                margin-top: 90px;
+                width: 417px;
+                height: 293px;
+                background-size: 417px 293px;
+                margin-top: 90px;
+            }
+        }
+        .section-design .screen {
+            margin-left: 83px;
+            margin-top: 30px;
+            width: 601px;
+            height: 451px;
+            background-size: 601px 451px;
+            background-repeat: no-repeat;
+            background-image: url(https://www.apple.com/v/ipad-mini/i/images/overview/design_battery_life__gc8qrn82566i_medium.jpg);
+        }
+        @media only screen and (max-width: 1068px) {
+            .section-design .screen {
+                margin-top: 23px;
+                margin-left: 63px;
+                width: 455px;
+                height: 341px;
+                background-size: 455px 341px;
+            }
+        }
+        @media only screen and (max-width: 768px) {
+            .section-design .screen {
+                margin-top: 15px;
+                margin-left: 39px;
+                width: 278px;
+                height: 209px;
+                background-size: 278px 209px;
+            }
+        }
+        .additional .image1 {
+            width: 218px;
+            height: 45px;
+            background-size: 218px 45px;
+            background-repeat: no-repeat;
+            background-image: url(https://www.apple.com/v/ipad-mini/i/images/overview/design_snipe_01__c6qnb0lk9eky_medium.png);
+            background-position: right;
+            top: -55px;
+            -webkit-transform: translate(-37px, 0);
+            transform: translate(-37px, 0);
+        }
+        .additional .image2 {
+            width: 111px;
+            height: 60px;
+            background-size: 111px 60px;
+            background-repeat: no-repeat;
+            background-image: url(https://www.apple.com/v/ipad-mini/i/images/overview/design_snipe_02__7y0hty0mrcy2_medium.png);
+            top: 380px;
+            left: -131px;
+        }
+        .section-design .apple-pencil {
+            width: 742px;
+            height: 125px;
+            background-size: 742px 125px;
+            background-repeat: no-repeat;
+            background-image: url(https://www.apple.com/v/ipad-mini/i/images/overview/pencil__c5csarz1cosy_medium.png);
+            position: relative;
+            left: 50%;
+            margin-left: -350px;
+            margin-top: -47px;
+        }
         /********** Design Section Ends **********/
 
+        /********** Performance Section Ends **********/
+        .image.performance {
+            width: 900px;
+            height: 631px;
+            background-size: 900px 631px;
+            background-repeat: no-repeat;
+            background-image: url(https://www.apple.com/v/ipad-mini/i/images/overview/ipad_horizontal_silver__c2l1ltmney82_medium.png);
+            margin-left: -200px;
+            margin-top: -140px;
+        }
+
+        @media screen and (max-width: 1068px){
+            .image.image.performance {
+                width: 681px;
+                height: 480px;
+                background-size: 681px 480px;
+                margin-top: 102px;
+                margin-left: 130px;
+            }
+        }
+        @media screen and (max-width: 992px){
+            .image.image.performance {
+                margin-top: 102px;
+                margin-left: 50px;
+            }
+        }
+        @media only screen and (max-width: 768px) {
+            .image.image.performance {
+                margin-top: 15px;
+                margin-left: 100px;
+                width: 278px;
+                height: 209px;
+                background-size: 278px 209px;
+            }
+        }
+        .grid.performance {
+            grid-template-columns: repeat(2,1fr);
+            display: grid;
+            text-align: left;
+            list-style-type: none!important;
+            width: 70%;
+            padding-top: 1%;
+            grid-gap: 1rem 15.43902439%;
+            margin-bottom: 1rem;
+        }
+        .performance.ipad-gold {
+            width: 642px;
+            height: 890px;
+            background-size: 642px 890px;
+            background-repeat: no-repeat;
+            background-image: url(https://www.apple.com/v/ipad-mini/i/images/overview/ipad_portrait_gold__c5s9rkve9ay6_medium.png);
+        }
+        .performance.ipad-air {
+            width: 900px;
+            height: 631px;
+            background-size: 900px 631px;
+            background-repeat: no-repeat;
+            background-image: url(https://www.apple.com/v/ipad-mini/i/images/overview/ipad_horizontal_black__fr9d4rhl74i2_medium.png);
+        }
+        .performance-bottom {
+            margin-top: 80px;
+            margin-left: -300px;
+        }
+        @media only screen and (max-width: 1068px) {
+            .performance-bottom {
+                -webkit-box-align: center;
+                -ms-flex-align: center;
+                align-items: center;
+                margin-top: 20px;
+            }
+        }
+
+        @media only screen and (max-width: 735px) {
+            .performance-bottom {
+                width: 50%;
+                left: 50%;
+                margin-left: -131px;
+                margin-top: -11px;
+            }
+        }
+        .up_to_3x {
+            width: 341px;
+            height: 34px;
+            background-size: 341px 34px;
+            background-repeat: no-repeat;
+            background-image: url(https://www.apple.com/v/ipad-mini/i/images/overview/performance_snipe_02__08b2rlcggzm2_medium.png);
+            background-position: left;
+            top: -55px;
+            -webkit-transform: translate(11px, -8px);
+            transform: translate(11px, -8px);
+        }
+        .performance-content {
+            margin-left: -50px;
+        }
+        @media only screen and (max-width: 1068px) {
+            .performance-bottom {
+                width: 50%;
+            }
+            .offset-md-3 {
+                margin-left: 10%;
+            }
+        }
+        @media only screen and (max-width: 1200px) {
+            .image.performance {
+                margin-left: 100px;
+                margin-top: 0px;
+            }
+        }
+        @media only screen and (max-width: 1068px) {
+            .image.performance {
+                margin-left: 100px;
+                margin-top: 0px;
+            }
+        }
+        /********** Performance Section Ends **********/
+
+        /********** Retina Section Ends **********/
 
         
+        .retina {
+            width: 1122px;
+            height: 1437px;
+            background-size: 1122px 1437px;
+            background-repeat: no-repeat;
+            background-image: url(https://www.apple.com/v/ipad-mini/i/images/overview/retina_display__fipjdt776piu_large.png);
+            position: relative;
+            margin-top: -189px;
+            margin-left: 146px;
+        }
+
+        @media only screen and (max-width: 1068px) {
+            .retina {
+                top: 252px;
+                left: 0;
+                margin-left: -40px;
+                width: 486px;
+                height: 673px;
+                background-size: 486px 673px;
+                background-image: url(https://www.apple.com/v/ipad-mini/i/images/overview/retina_display__fipjdt776piu_medium.png);
+            }
+            #a {
+                order: 2;
+            }
+            #b {
+                order:1;
+            }
+        }
+        @media only screen and (max-width: 768px) {
+            .retina {
+                position: relative;
+                margin-left: -140px;
+                margin-top: 79px;
+                left: 50%;
+                top: 0;
+            }
+  
+            .retina {
+                background-image: url(https://www.apple.com/v/ipad-mini/i/images/overview/retina_display__fipjdt776piu_large.png);
+            }
+        }
+        @media only screen and (max-width: 575px) {
+            #a {
+                order: 1;
+            }
+            #b {
+                order:2;
+            }
+            
+        }
+        /********** Retina Section Ends **********/
+
+        /********** Camera Section Starts **********/
+        .camera {
+            width: 709px;
+            height: 957px;
+            background-size: 709px 957px;
+            background-repeat: no-repeat;
+            background-image: url(https://www.apple.com/v/ipad-mini/i/images/overview/cameras__dpqn816ajys2_medium.png);
+            margin-top: -300px;
+            margin-left: 15px;
+            position: relative;
+        }
+        .camera.bottom-image {
+            width: 900px;
+            height: 631px;
+            background-size: 900px 631px;
+            background-repeat: no-repeat;
+            background-image: url(https://www.apple.com/v/ipad-mini/i/images/overview/ipad_horizontal_black__fr9d4rhl74i2_medium.png);
+            margin-top: -470px;
+            margin-left: -219px;
+        }
+        .camera-div {
+            margin-top: -200px;
+        }
+        @media only screen and (max-width: 1068px) {
+            .section-camera {
+                padding-top: 400px;
+                padding-bottom: 0;
+                margin-bottom: -25px;
+                align-items: center;
+            }
+            .camera-ipad {
+                margin-top: 300px;
+                position: relative;
+                left: 50%;
+                margin-left: -321px;
+            }
+            /* .camera.bottom-image {
+                width: 455px;
+                height: 341px;
+                background-size: 455px 341px;
+            } */
+        }
+
+        @media only screen and (max-width: 735px) {
+            .camera-ipad {
+                width: 329px;
+                height: 443px;
+                background-size: 329px 443px;
+                margin-top: 314px;
+            }
+            .camera.bottom-image {
+                width: 278px;
+                height: 209px;
+                background-size: 278px 209px;
+            }
+        }
+        /********** Camera Section Ends **********/
+
+        /********** Apple-pencil Section Starts **********/
+        .apple-pencil.dinner {
+            width: 642px;
+            height: 890px;
+            background-size: 642px 890px;
+            background-repeat: no-repeat;
+            background-image: url(https://www.apple.com/v/ipad-mini/i/images/overview/ipad_portrait_gold__c5s9rkve9ay6_large.png);
+            top: -352px;
+            left: 65.33333%;
+            position: relative;
+        }
+        .apple-pencil.weekend {
+            width: 642px;
+            height: 890px;
+            background-size: 642px 890px;
+            background-repeat: no-repeat;
+            background-image: url(https://www.apple.com/v/ipad-mini/i/images/overview/ipad_portrait_gold__c5s9rkve9ay6_large.png);
+            top: -800px;
+            position: relative;
+        }
+        .apple-pencil.aestherica {
+            width: 900px;
+            height: 631px;
+            background-size: 900px 631px;
+            background-repeat: no-repeat;
+            background-image: url(https://www.apple.com/v/ipad-mini/i/images/overview/ipad_horizontal_silver__c2l1ltmney82_large.png);
+            top: -1300px;
+            left: 600px;
+            position: relative;
+        }
+        .apple-pencil-p {
+            width: 60%;
+            margin-left: 0;
+        }
+        
+        @media only screen and (max-width: 1200px) {
+            .apple-pencil-p {
+                width: 60%;
+                margin-left: 0;
+            }
+        }
+
+        @media only screen and (max-width: 1024px) {
+            .apple-pencil.dinner {
+
+            }
+            .apple-pencil.apple-pencil.weekend {
+                
+            }
+            .apple-pencil.aestherica {
+
+            }
+        }
+
+        @media only screen and (max-width: 66.75rem) {
+            .section-apple-pencil .first-column {
+                margin-left: auto;
+                margin-right: auto;
+            }
+            .apple-pencil.dinner {
+                width: 487px;
+                height: 674px;
+                background-size: 487px 674px;
+                top: 150px;
+                left: -20px;
+            }
+            .apple-pencil.apple-pencil.weekend {
+                width: 487px;
+                height: 674px;
+                background-size: 487px 674px;
+                top: -220px;
+                left: 390px;
+                position: relative;
+            }
+            .apple-pencil.aestherica {
+                width: 681px;
+                height: 480px;
+                background-size: 681px 480px;
+                top: -1400px;
+                left: 400px;
+            }
+        }
+
+        @media only screen and (max-width: 46rem) {
+            .section-apple-pencil .first-column {
+                margin-left: auto;
+                margin-right: auto;
+                margin-top: 50%;
+            }
+            .apple-pencil-p {
+                width: 100%;
+
+            }
+            .apple-pencil.dinner {
+                width: 299px;
+                height: 413px;
+                background-size: 299px 413px;
+                top: 200px;
+                left: 300px;
+            }
+            .apple-pencil.apple-pencil.weekend {
+                width: 299px;
+                height: 413px;
+                background-size: 299px 413px;
+                top: -400px;
+                left: 1px;
+            }
+            .apple-pencil.aestherica {
+                width: 417px;
+                height: 293px;
+                background-size: 417px 293px;
+                top: -400px;
+                left: -100px;
+            }
+        }
+        /********** Apple-pencil Section Ends **********/
+
+
+        /********** iPadOS Section Ends **********/
+        .section-iPadOS {
+            margin-top: -80%;
+        }
+        .iPadOS.open_house {
+            width: 900px;
+            height: 631px;
+            background-size: 900px 631px;
+            background-repeat: no-repeat;
+            background-image: url(https://www.apple.com/v/ipad-mini/i/images/overview/ipad_horizontal_silver__c2l1ltmney82_large.png);
+            position: relative;
+            margin-left: -100px;
+            margin-top: 200px;
+        }
+        .iPadOS.for_you {
+            width: 642px;
+            height: 890px;
+            background-size: 642px 890px;
+            background-repeat: no-repeat;
+            background-image: url(https://www.apple.com/v/ipad-mini/i/images/overview/ipad_portrait_gold__c5s9rkve9ay6_large.png);
+            position: relative;
+            margin-left: 200px;
+        }
+
+        @media only screen and (max-width: 1068px) {
+            .iPadOS.open_house {
+                width: 455px;
+                height: 341px;
+                background-size: 455px 341px;
+                margin-top: 150px;
+                margin-left: 0px;
+            }
+            .iPadOS.for_you {
+                width: 487px;
+                height: 674px;
+                background-size: 487px 674px;
+            }
+        }
+        @media only screen and (max-width: 46rem) {
+            .iPadOS.open_house {
+                width: 278px;
+                height: 209px;
+                background-size: 278px 209px;
+                margin-left: auto;
+            }
+            .iPadOS.for_you {
+                width: 299px;
+                height: 413px;
+                background-size: 299px 413px;
+            }
+        }
+        .section-iPadOS .first-column {
+                margin-left: auto;
+                margin-right: auto;
+                margin-top: 50%;
+        }
+        /********** iPadOS Section Ends **********/
+
+        /********** Apps Section Starts **********/
+        .apps.image {
+            width: 1795px;
+            height: 1386px;
+            background-size: 1795px 1386px;
+            background-repeat: no-repeat;
+            background-image: url(https://www.apple.com/v/ipad-mini/i/images/overview/apps__hyxuh0di6omu_large.png);
+            position: relative;
+            left: 50%;
+            margin-left: -860.5px;
+        }
+        .apps.bottom {
+            margin-top: 100px;
+        }
+
+        @media only screen and (max-width: 1068px) {
+            .apps.image {
+                width: 1116px;
+                height: 888px;
+                background-size: 1116px 888px;
+                left: 100%;
+                background-image: url(https://www.apple.com/v/ipad-mini/i/images/overview/apps__hyxuh0di6omu_medium.png);
+            }
+        }
+        .section-apps .first-column {
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 50%;
+        }
+        @media only screen and (max-width: 735px) {
+            .apps.image {
+                width: 587px;
+                height: 636px;
+                background-size: 587px 636px;
+                background-image: url(https://www.apple.com/v/ipad-mini/i/images/overview/apps__hyxuh0di6omu_small.png);
+                margin-left: -100%;
+            }
+        }
+
+        .section-apps {
+            margin-top: -30%;
+        }
+        /********** Apps Section Ends ***********/
+
+        /********** iCloud Section Starts ***********/
+        .section-iCloud {
+            margin-left: 30%;
+        }
+
+        .iCloud-row2 {
+            padding-left: 50px
+        }
+        /*********** iCloud Section Ends ************/
+
+
 
     </style>
 </head>
 
 <body>
-
     <!---------- Header Section Starts ---------->
     <section class="container-fluid section section-header">
         <div class="d-flex flex-column justify-content-center">
@@ -464,36 +1063,268 @@
     </section>
     <!---------- Header Section Ends ---------->
 
-    <!---------- Main Section Starts ---------->
+    <!------------------------------------- Main Section Starts ---------------------------------------->
 
     <!---------- Design Section Starts ---------->
-    <section class="container section section-desc section-design">
-            <div class="d-flex align-self-start flex-column">
-                <h2 class="content-headline design">Design</h2>
-                <div class="">
-                    <p class="content-headline sub_header"> Compact. Portable. Pocketable.</p>
-                </div>
-                <p class="content-paragraph design">iPad&nbsp;mini features a thin, light, and portable design that makes it the perfect on-the-go companion. At 0.66&nbsp;pound and 6.1&nbsp;mm thin,<sup><a href="#footnote-3" class="footnote">1</a></sup> it’s easy to carry with you in one hand or take out of a pocket or bag whenever inspiration strikes.</p>
-            <figure class="image-design image-frame image-frame-horizontal image-frame-silver" data-anim-lazy-image-download-complete="">
-                <figure class="screen"></figure>
-                <figure class=""></figure>
-                <figure class=""></figure>
-                <figure class=""></figure>
-            </figure>
+    <section class="container section section-design">
+        <div class="d-flex align-self-start flex-column">
+            <h2 class="content-headline design">Design</h2>
             <div class="">
-                <div class="">
-                    <p class="">Stay connected with fast Wi‑Fi and Gigabit‑class LTE whenever you need&nbsp;it.<sup><a href="#footnote-4" class="footnote">2</a></sup></p>
-                    <a href="/ipad/cellular/" data-analytics-title="learn more about cellular data" data-analytics-region="learn more" class="icon-wrapper typography-copy"><span class="icon-copy">Learn more about cellular data</span><span class="icon icon-after more"></span></a> </div>
-                <div class="">
-                    <p class="">Up to 10 hours of battery life means you can go all day on a single charge.<sup><a href="#footnote-5" class="footnote">3</a></sup></p>
+                <p class="content-headline sub_header"> Compact. Portable. Pocketable.</p>
+            </div>
+            <div class="w-50">
+                <p class="content-paragraph design">iPad&nbsp;mini features a thin, light, and portable design that makes it the perfect on-the-go companion. At 0.66&nbsp;pound and 6.1&nbsp;mm thin,<sup><a href="#footnote-3" class="footnote">1</a></sup> it’s easy to carry with you in one hand or take out of a pocket or bag whenever inspiration strikes.</p>
+            </div>
+            <div class="d-flex justify-content-center">
+                <figure class="image design">
+                    <figure class="additional image1"></figure>
+                    <figure class="screen"></figure>
+                    <figure class="additional image2"></figure>
+                    <figure class="additional image3"></figure>
+                </figure>
+                <!-- <figure class="apple-pencil"></figure> -->
+            </div>
+            <div class="grid desc d-flex justify-content-center">
+                <div class="w-50">
+                    <div class="">
+                        <p class="desc-paragraph">Stay connected with fast Wi‑Fi and Gigabit‑class LTE whenever you need&nbsp;it.<sup><a href="#footnote-4" class="footnote">2</a></sup></p>
+                        <a href="/ipad/cellular/" data-analytics-title="learn more about cellular data" data-analytics-region="learn more" class="icon-wrapper typography-copy"><span class="icon-copy">Learn more about cellular data</span><span class="icon icon-after more"></span></a>
+                    </div>
+                </div>
+                <div class="w-50">
+                    <p class="desc-paragraph">Up to 10 hours of battery life means you can go all day on a single charge.<sup><a href="#footnote-5" class="footnote">3</a></sup></p>
                 </div>
             </div>
         </div>
     </section>
     <!----------- Design Section Ends ----------->
 
-    <section class="section section-performance"></section>
-    <!----------- Main Section Ends ----------->
+    <!----------- Performance Section Ends ----------->
+    <section class="section section-performance">
+        <div class="container">
+            <div class="row flex-column-reverse flex-md-row">
+                <div class="col">
+                    <figure class="image performance">
+                        <figure class="perfect_for_AR"></figure>
+                        <figure class="screen"></figure>
+                    </figure>
+                </div>
+                <div class="col performance-header">
+                    <h2 class="content-headline design">Performance</h2>
+                    <div class="">
+                        <p class="content-headline sub_header">Power beyond its size.</p>
+                    </div>
+                    <div class="">
+                        <p class="content-paragraph performance">The A12&nbsp;Bionic chip with Neural&nbsp;Engine enables a remarkable level of power and intelligence. It uses real-time machine learning to recognize patterns, make predictions, and learn from experience. With all this power, you can run apps like Adobe&nbsp;Photoshop CC,<a href="#footnote-1" class="footnote">*</a> experience augmented reality, or play an immersive game with console-level graphics.</p>
+                    </div>
+                </div>
+          </div>
+          <div class="d-flex justify-content-center performance-bottom">
+            <div class="grid performance">
+                <div class="">
+                    <div class="performance-content">
+                        <figure class="performance ipad-gold">
+							<figure class=""></figure>
+							<figure class=""></figure>
+						</figure>
+                    </div>
+                </div>
+                <div class="">
+                    <div class="performance-content">
+                        <div class=""><figure class="up_to_3x"></figure></div>
+                        <div class=""><figure class="performance ipad-air"></figure></div>
+                        <figure class="performance bottom apple-pencil"></figure>
+                    </div>
+                </div>
+            </div>
+          </div>
+        </div>
+    </section>
+    <!----------- Performance Section Ends ----------->
+    
+
+    <!----------- Retina Section Ends ----------->
+    <section class="section section-retina">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6" id="a">
+                    <div class="retina-div">
+                        <h2 class="content-headline design">Retina Display</h2>
+                        <div class="">
+                            <p class="content-headline sub_header">It’s not the size of the display. It’s the quality of the pixel.</p>
+                        </div>
+                        <div class="">
+                            <p class="content-paragraph design">iPad&nbsp;mini packs over 3 million pixels into a 7.9‑inch display. And we made them all count. Whether you’re reading in the park or editing video in your home office, the high brightness, wide color, and antireflective coating offer true-to-life detail and razor-sharp text. And True&nbsp;Tone dynamically adjusts white balance so images look natural in any&nbsp;light.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6" id="b">
+                    <figure class="retina">
+                        <figure class="snipe snipe-1" role="img" aria-label="7.9” Retina display"></figure>
+                        <figure class="snipe snipe-2" role="img" aria-label="True Tone for easy viewing"></figure>
+                    </figure>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!----------- Retina Section Ends ----------->
+
+    <!----------- Camera Section Starts ----------->
+    <section class="section section-camera">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="camera-div">
+                        <h2 class="content-headline design">Cameras</h2>
+                        <div class="">
+                            <p class="content-headline sub_header">Stay in touch. Shoot in HD. Play in AR.</p>
+                        </div>
+                        <div class="">
+                            <p class="content-paragraph design">The front and back cameras in iPad&nbsp;mini let you take vivid photos and cinematic videos. But the fun doesn’t stop there. Make FaceTime calls with friends, scan documents and mark them up, or even use augmented reality to plan out your living room&nbsp;decor.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 camera-ipad small-12">
+                    <figure class="camera">
+                        <figure class=""></figure>
+                        <figure class=""></figure>
+                    </figure>
+                </div>
+            </div>
+            <div class="row">
+                <figure class="camera bottom-image">
+                    <figure class=""></figure>
+                </figure>
+            </div>
+      </div>
+    </section>
+    <!----------- Camera Section Ends ----------->
+
+    <!----------- Apple-Pencil Section Starts ----------->
+    <section class="section section-apple-pencil">
+        <div class="container">
+            <div class="row">
+                <div class="col-9 first-column">
+                    <h2 class="content-headline design apple-pencil">Apple Pencil</h2>
+                    <p class="content-headline sub_header"> Pencil meets mini. <br class="medium">Magic happens.</p>
+                    <p class="content-paragraph apple-pencil-p">Apple&nbsp;Pencil opens up new possibilities for iPad&nbsp;mini.<sup><a href="#footnote-6" class="footnote">4</a></sup> Together they turn iPad mini into your take-anywhere digital notebook. Jot down notes, sign documents, and fill out forms. Or capture your most creative ideas by drawing, painting, or sketching on the&nbsp;go.</p>
+                </div>
+                <div class="images-wrapper column">
+                    <figure class="apple-pencil dinner img-fluid">
+                        <figure class=""></figure>
+                        <figure class=""></figure>
+                    </figure>
+                    <figure class="apple-pencil weekend img-fluid">
+                        <figure class=""></figure>
+                        <figure class=""></figure>
+                    </figure>
+                    <figure class="apple-pencil aestherica img-fluid">
+                        <figure class=""></figure>
+                        <figure class=""></figure>
+                    </figure>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!----------- Apple-Pencil Section Ends ----------->
+
+
+
+    <!----------- iPadOS Section Starts ----------->
+    <section class="section section-iPadOS">
+        <div class="container">
+            <div class="row iPadOS">
+                <div class="col-8 first-column">
+                    <h2 class="content-headline design apple-pencil">iPadOS</h2>
+                    <p class="content-headline sub_header"> Designed to help you get the most out of&nbsp;iPad.</p>
+                    <p class="content-paragraph iPadOS-p">iPadOS on iPad&nbsp;mini gives you the full iPad experience in the most compact iPad. Use multiple apps at once, launch your favorite apps from the Dock, and drag and drop files using simple Multi‑Touch gestures. Access your files all in one place with the Files&nbsp;app. And for tasks that require more precision, support for trackpad or mouse complements the familiar Multi-Touch experience of iPad.</p>
+                    <a href="https://www.apple.com/ipados/" class="content-link-wrapper arrow"><span class="content-link">See what’s new in iPadOS</span><span class="content-link-after"></span></a>
+                </div>
+            </div>
+            <div class="d-flex justify-content-between">
+                <div class="col-6">
+                    <figure class="iPadOS open_house">
+                        <figure class=""></figure>
+                        <figure class=""></figure>
+                    </figure>
+                </div>
+                <div class="col-6 ">
+                    <figure class="iPadOS for_you">
+                        <figure class=""></figure>
+                        <figure class=""></figure>
+                        <figure class=""></figure>
+                    </figure>
+                </div>
+              </div>
+        </div>
+    </section>
+    <!----------- iPadOS Section Ends ----------->
+
+
+
+    <!----------- Apps Section Starts ----------->
+    <section class="section section-apps">
+        <div class="container">
+            <div class="row apps">
+                <div class="col-8 first-column">
+                    <h2 class="content-headline design apps">Apps</h2>
+                    <p class="content-headline sub_header"> Designed to help you get the most out of&nbsp;iPad.</p>
+                    <p class="content-paragraph apps-p">iPad&nbsp;mini comes with powerful Apple-designed apps, like Photos, Maps, Messages, Apple&nbsp;News, Mail, and Safari. And with over a million iPad apps on the App&nbsp;Store, there’s an app for anything you want to do. Edit a video, check your social media, sketch an idea, and join a battle royale with&nbsp;friends.</p>
+                    <a href="https://www.apple.com/ipados/" class="content-link-wrapper arrow"><span class="content-link">Discover apps for iPad in the App Store</span><span class="content-link-after"></span></a>
+                </div>
+            </div>
+            <div class="apps bottom">
+                <figure class="apps image"></figure>
+            </div>
+        </div>
+    </section>
+    <!----------- Apps Section Ends ----------->
+
+    <!----------- iCloud Section Starts ----------->
+    <section class="section section-iCloud">
+        <div class="container">
+            <div class="row apps">
+                <div class="row">
+                    <div class="col-8 first-column">
+                        <h2 class="content-headline design apps">iCloud</h2>
+                        <p class="content-headline sub_header">The best place for all your photos, files, and more.</p>
+                    </div>
+                </div>
+                <div class="row w-50" id="iCloud-row2">
+                    <div class="col">
+                        <p class="content-paragraph iCloud-p">iCloud keeps things like your photos, files, and notes safe, current, and conveniently available on all your devices.<sup><a href="#footnote-7" class="footnote">5</a></sup> And the Files&nbsp;app lets you manage all your files — in iCloud&nbsp;Drive and on your iPad&nbsp;mini — in one central&nbsp;location.</p>
+                        <a href="https://www.apple.com/ipados/" class="content-link-wrapper arrow"><span class="content-link">Discover apps for iPad in the App Store</span><span class="content-link-after"></span></a>
+                    </div>
+                </div>
+            </div>
+            <div class="apps bottom">
+                <div class="grid compare">
+                    <div class="col item1">
+                        <div class="compare-content">
+                            <figure class="image ipad-pro"></figure>
+                        </div>
+                    </div>
+                    <div class="col item2">
+                        <div class="compare-content">
+                            <figure class="image ipad-air"></figure>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!----------- iCloud Section Ends ----------->
+
+    <!----------------------------------------- Main Section Ends --------------------------------->
+
+
+
+
+
+
+
+
+
 
 
 
@@ -645,37 +1476,5 @@
         </div>
     </section>
     <!---------- Compare Section Ends ---------->
-
-
-
-
-
-
-
-    <section class="container-fluid section section-desc section-compare">
-        <div class="grid compare">
-            <div class="col item1">
-                <div class="compare-content">
-                    <figure class="image ipad-pro"></figure>
-                    <h3 class="compare-item-name">iPad&nbsp;Pro</h3>
-                    <p class="compare-paragraph"><span>From $799</span></p>
-                </div>
-
-            </div>
-            <div class="col item2">
-                <div class="compare-content">
-                    <figure class="image ipad-air"></figure>
-                    <h3 class="compare-item-name">iPad&nbsp;Pro</h3>
-                    <p class="compare-paragraph"><span>From $799</span></p>
-                </div>
-            </div>
-        </div>
-    </section>
 </body>
-
 </html>
-
-
-
-
-<!-- TRY GRID COLUMNS IN OR DER TO GET THE MAIN PARTS -->
