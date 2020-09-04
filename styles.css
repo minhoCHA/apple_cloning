@@ -134,9 +134,6 @@ a:hover {
   /* overflow-x: hidden; */
 }
 #ipad_id_1 {
-  width: 500px;
-  width: 630px;
-  margin-left: 240px;
 }
 #ipad_id_2 {
   width: 600px;
@@ -287,11 +284,11 @@ a:hover {
   }
 } */
 #camera_p_id {
-  width: 380px;
+  width: 400px;
 }
 #camera_id_1 {
   margin-left: 0px;
-  width: 430px;
+  width: 420px;
 }
 
 /* @media only screen and (max-width: 1068px) {
@@ -674,13 +671,13 @@ a:hover {
   margin-top: 46px;
 }
 .buy_div2 {
-  margin-top: 107px;
+  margin-top: 130px;
 }
 .buy_div3 {
-  margin-top: 106px;
+  margin-top: 130px;
 }
 .buy_div4 {
-  margin-top: 128px;
+  margin-top: 150px;
 }
 /* @media only screen and (max-width: 1068px) {
   .image.design {
@@ -2612,6 +2609,9 @@ margin-top: -100px;
   width: 300px;
 }
 } */
+.section-apple-pencil-alpha, .section-desc.section-ipad {
+  background-color: #fff;
+}
 
 .performance.ipad-gold .image3 {
   width: 342px;
@@ -2902,7 +2902,7 @@ margin-top: -100px;
     width: 562px;
     height: 95px;
     background-size: 562px 95px;
-    margin-top: -586px;
+    margin-top: -526px;
     margin-left: 476px;
     background-image: url(https://www.apple.com/v/ipad-mini/i/images/overview/pencil__c5csarz1cosy_medium.png);
   }
@@ -3256,7 +3256,7 @@ margin-top: -100px;
     margin-top: -780px;
   }
   #privacy_headline {
-    width: 300px;
+    width: 560px;
   }
   .privacy_sub {
     width: 630px;
@@ -3378,6 +3378,27 @@ margin-top: -100px;
     left: -90px;
     position: absolute;
     background-image: url(https://www.apple.com/v/ipad-mini/i/images/overview/accessibility_snipe_03__fjg7qyl73gq6_medium.png);
+  }
+  #camera_p_id {
+    width: 600px;
+  }
+  #camera_id_1 {
+    width: 530px;
+  }
+  .apple-pencil-p {
+    width: 500px;
+  }
+  .buy_div {
+    margin-top: 137px;
+  }
+  .buy_div2 {
+    margin-top: 174px;
+  }
+  .buy_div3 {
+    margin-top: 172px;
+  }
+  .buy_div4 {
+    margin-top: 153px;
   }
 }
 
@@ -3402,106 +3423,126 @@ margin-top: -100px;
     font-weight: 400;
     letter-spacing: -.04em;
     width: 400px;
+    margin-top: 450px;
     font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
   }
   #main_order_b {
-    width: 1068px;
-    height: 678px;
-    background-size: 1068px 678px;
+    width: 894px;
+    height: 408px;
+    background-size: 894px 498px;
     background-repeat: no-repeat;
-    margin-left: -500px;
+    margin-top: 0px;
+    margin-left: -380px;
+    position: absolute;
+    background-image: url(https://www.apple.com/v/ipad-mini/i/images/overview/hero__d1cahx63kr6u_small.jpg);
   }
-  .h2_1068 {
-    font-size: 48px;
-    line-height: 1.08365;
+  #main_order_c {
+    margin-top: -250px;
+  }
+  .ipad_section_check {
+    margin-bottom: 60px;
+  }
+  .section.section-design {
+    margin-top: -160px;
+  }
+  .h2_735 {
+    font-size: 40px;
+    line-height: 1.1;
     font-weight: 600;
-    letter-spacing: -.003em;
+    letter-spacing: 0em;
     font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
   }
   .content-headline.sub_header {
-    font-size: 48px;
-    line-height: 1.08365;
+    font-size: 40px;
+    line-height: 1.1;
     font-weight: 600;
-    letter-spacing: -.04em;
+    letter-spacing: 0em;
     font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
   }
-  .p_1068 {
-    font-size: 21px;
-    line-height: 1.38105;
+  .p_735 {
+    font-size: 19px;
+    line-height: 1.42115;
     font-weight: 400;
-    letter-spacing: -.04em;
+    letter-spacing: -.02em;
     font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
   }
   #design_section_id {
     width: 80%;
   }
   #design_p_1 {
-    width: 660px;
+    width: 400px;
   }
   #design_p {
     width: 500px;
   }
   .image.design {
-    width: 681px;
-    height: 480px;
-    background-size: 681px 480px;
-    margin-top: 102px;
+    width: 417px;
+    height: 293px;
+    background-size: 417px 293px;
+    margin-top: 62px;
     margin-left: 0px;
   }
   .section-design .screen.design {
-      margin-top: 35px;
-      margin-left: 66px;
-      width: 450px;
-      height: 341px;
-      background-size: 455px 341px;
+    margin-top: 37px;
+    margin-left: 38px;
+      width: 278px;
+      height: 209px;
+      background-size: 278px 209px;
   }
   .additional.image1 {
-    margin-left: 368px;
+    margin-left: 40px;
+    width: 158px;
+    height: 33px;
+    background-size: 158px 33px;
+    background-image: url(https://www.apple.com/v/ipad-mini/i/images/overview/design_snipe_01__c6qnb0lk9eky_small.png);
   }
   .additional.image2 {
-    width: 234px;
-    height: 31px;
-    background-size: 234px 31px;
-    background-image: url(https://www.apple.com/v/ipad-mini/i/images/overview/design_snipe_02__7y0hty0mrcy2_medium.png);
-    margin-left: 0px;
-    margin-top: 50px;
+    width: 78px;
+    height: 42px;
+    background-size: 78px 42px;
+    background-image: url(https://www.apple.com/v/ipad-mini/i/images/overview/design_snipe_02__7y0hty0mrcy2_small.png);
+    margin-left: 240px;
+    margin-top: -300px;
   }
   .section-design .apple-pencil {
-    background-image: url(https://www.apple.com/v/ipad-mini/i/images/overview/pencil__c5csarz1cosy_medium.png);
-    width: 562px;
-    height: 95px;
-    background-size: 562px 95px;
-    margin-left: -660px;
-    margin-top: 570px;
+    background-image: url(https://www.apple.com/v/ipad-mini/i/images/overview/pencil__c5csarz1cosy_small.png);
+    width: 341px;
+    height: 58px;
+    background-size: 341px 58px;
+    margin-left: -400px;
+    margin-top: 370px;
   }
   #stay_connected_p, #upto_10_p  {
-    font-size: 28px;
-    line-height: 1.14286;
+    font-size: 21px;
+    line-height: 1.19048;
     font-weight: 600;
-    letter-spacing: .007em;
+    letter-spacing: .011em;
   }
   #stay_connected_p {
-    width: 400px;
+    width: 600px;
     padding-right: 150px;
   }
   #upto_10_p  {
-    width: 300px;
+    width: 450px;
+    margin-top: 160px;
+    margin-left: -260px;
   }
   .stay_div {
-    width: 350px
+    width: 350px;
+    margin-left: 70px
   }
   .additional.image3 {
     width: 234px;
     height: 31px;
     background-size: 234px 31px;
     background-image: url(https://www.apple.com/v/ipad-mini/i/images/overview/design_snipe_03__fozal1aty5ea_medium.png);
-    margin-left: 340px;
-    margin-top: -60px;
+    margin-left: 50px;
+    margin-top: 270px;
   }
   #performance_order_a {
     width: 300px;
-    margin-top: -260px;
-    margin-left: -650px;
+    margin-top: -270px;
+    margin-left: 30px;
   }
   #performance_pics {
     margin-top: 500px;
@@ -3510,96 +3551,101 @@ margin-top: -100px;
     width: 600px;
   }
   .a12_p {
-    width: 590px;
+    width: 460px;
     margin-left: 0px;
   }
   .image.performance {
-    width: 681px;
-    height: 480px;
-    background-size: 681px 480px;
+    width: 417px;
+    height: 293px;
+    background-size: 417px 293px;
     background-repeat: no-repeat;
-    background-image: url(https://www.apple.com/v/ipad-mini/i/images/overview/ipad_horizontal_silver__c2l1ltmney82_medium.png);
+    background-image: url(https://www.apple.com/v/ipad-mini/i/images/overview/ipad_horizontal_silver__c2l1ltmney82_small.png);
     position: absolute;
-    margin-left: 130px;
-    margin-top: -300px;
+    margin-left: 70px;
+    margin-top: -440px;
   }
   .screen.performance_image {
     position: absolute;
-    width: 455px;
-    height: 341px;
-    background-size: 455px 341px;
+    width: 278px;
+    height: 209px;
+    background-size: 278px 209px;
     background-repeat: no-repeat;
-    margin-left: 65px;
-    margin-top: 25px;
-    background-image: url(https://www.apple.com/v/ipad-mini/i/images/overview/performance_perfect_for_ar__ezqggha9z4ya_medium.jpg);
+    margin-left: 39px;
+    margin-top: 15px;
+    background-image: url(https://www.apple.com/v/ipad-mini/i/images/overview/performance_perfect_for_ar__ezqggha9z4ya_small.jpg);
   }
   .perfect_for_AR {
-    margin-top: -60px;
-    margin-left: 430px;
+    margin-top: -40px;
+    margin-left: 240px;
+    width: 108px;
+    height: 22px;
+    background-size: 108px 22px;
+    background-image: url(https://www.apple.com/v/ipad-mini/i/images/overview/performance_snipe_01__fo5317ij2x26_small.png);
   }
   .performance.ipad-gold {
-    margin-top: 50px;
-    margin-left: 130px;
-    width: 487px;
-    height: 674px;
-    background-size: 487px 674px;
-    background-image: url(https://www.apple.com/v/ipad-mini/i/images/overview/ipad_portrait_gold__c5s9rkve9ay6_medium.png);
+    margin-top: -260px;
+    margin-left: 170px;
+    width: 299px;
+    height: 413px;
+    background-size: 299px 413px;
+    background-image: url(https://www.apple.com/v/ipad-mini/i/images/overview/ipad_portrait_gold__c5s9rkve9ay6_small.png);
   }
   .performance.ipad-air {
-    width: 342px;
-    height: 455px;
-    background-size: 342px 455px;
-    margin-top: -71px;
-    margin-left: -640px;
+    width: 209px;
+    height: 279px;
+    background-size: 209px 279px;
+    margin-top: -31px;
+    margin-left: -560px;
     background-image: url(https://www.apple.com/v/ipad-mini/i/images/overview/performance_bionic_chip__fgudlcl1eu6i_medium.jpg);
   }
   .performance.bottom.ipad {
-    width: 681px;
-    height: 480px;
-    background-size: 681px 480px;
-    margin-top: 0px;
-    margin-left: -240px;
-    background-image: url(https://www.apple.com/v/ipad-mini/i/images/overview/ipad_horizontal_black__fr9d4rhl74i2_medium.png);
+    width: 417px;
+    height: 293px;
+    background-size: 417px 293px;
+    margin-top: -170px;
+    margin-left: -290px;
+    background-image: url(https://www.apple.com/v/ipad-mini/i/images/overview/ipad_horizontal_black__fr9d4rhl74i2_small.png);
   }
   .performance.bottom.apple-pencil {
-    width: 455px;
-    height: 341px;
-    background-size: 455px 341px;
-    margin-top: 25px;
-    margin-left: 64px;
-    background-image: url(https://www.apple.com/v/ipad-mini/i/images/overview/performance_faster__ba6ypz9mfo9u_medium.jpg)
+    width: 278px;
+    height: 209px;
+    background-size: 278px 209px;
+    margin-top: 16px;
+    margin-left: 41px;
+    background-image: url(https://www.apple.com/v/ipad-mini/i/images/overview/performance_faster__ba6ypz9mfo9u_small.jpg)
   }
   .retina.wrap .image3 {
     position: absolute;
-    width: 562px;
-    height: 95px;
-    background-size: 562px 95px;
+    width: 341px;
+    height: 58px;
+    background-size: 341px 58px;
     margin-top: -586px;
-    margin-left: 476px;
-    background-image: url(https://www.apple.com/v/ipad-mini/i/images/overview/pencil__c5csarz1cosy_medium.png);
+    margin-left: 236px;
+    background-image: url(https://www.apple.com/v/ipad-mini/i/images/overview/pencil__c5csarz1cosy_small.png);
   }
   .up_to_3x.performance {
-    width: 280px;
-    height: 28px;
-    background-size: 280px 28px;
-    margin-top: 140px;
-    margin-left: -240px;
-    background-image: url(https://www.apple.com/v/ipad-mini/i/images/overview/performance_snipe_02__08b2rlcggzm2_medium.png);
+    width: 120px;
+    height: 42px;
+    background-size: 120px 42px;
+    margin-top: 2900px;
+    margin-left: -300px;
+    position: absolute;
+    background-image: url(https://www.apple.com/v/ipad-mini/i/images/overview/performance_snipe_02__08b2rlcggzm2_small.png);
   }
   .performance.ipad-gold .image3 {
-    width: 163px;
-    height: 66px;
-    background-size: 163px 66px;
-    background-image: url(https://www.apple.com/v/ipad-mini/i/images/overview/performance_snipe_03__s99eoixahjue_medium.png);
+    width: 146px;
+    height: 59px;
+    background-size: 146px 59px;
+    background-image: url(https://www.apple.com/v/ipad-mini/i/images/overview/performance_snipe_03__s99eoixahjue_small.png);
     position: absolute;
-    margin-top: 610px;
-    margin-left: 150px;
+    margin-top: 379px;
+    margin-left: 70px;
   }
 
   #a {
     order: 2;
-    margin-top: -780px;
-    margin-left: 450px;
+    margin-top: -620px;
+    margin-left: 10px;
     position: relative;
   }
   #b {
@@ -3607,14 +3653,14 @@ margin-top: -100px;
   }
 
   .iPad_gold_retina {
-    width: 486px;
-    height: 673px;
-    background-size: 486px 673px;
+    width: 360px;
+    height: 642px;
+    background-size: 360px 642px;
     background-repeat: no-repeat;
-    background-image: url(https://www.apple.com/v/ipad-mini/i/images/overview/retina_display__fipjdt776piu_medium.png);
+    background-image: url(https://www.apple.com/v/ipad-mini/i/images/overview/retina_display__fipjdt776piu_small.png);
     position: absolute;
-    margin-top: -610px;
-    margin-left: 86px;
+    margin-top: 40px;
+    margin-left: 186px;
   }
 
   .retina .image1 {
@@ -3622,15 +3668,15 @@ margin-top: -100px;
     margin-top: -50px;
   }
   #retina-para-id {
-    width: 362px;
+    width: 442px;
   }
   .retina .image2 {
-    width: 248px;
-    height: 32px;
-    background-size: 248px 32px;
-    background-image: url(https://www.apple.com/v/ipad-mini/i/images/overview/retina_display_snipe_02__bubhjputthjm_medium.png);
-    margin-left: 130px;
-    margin-top: 600px;
+    width: 143px;
+    height: 55px;
+    background-size: 143px 55px;
+    background-image: url(https://www.apple.com/v/ipad-mini/i/images/overview/retina_display_snipe_02__bubhjputthjm_small.png);
+    margin-left: -40px;
+    margin-top: 390px;
   }
   #retina-para-id2 {
     width: 360px;
@@ -3640,110 +3686,116 @@ margin-top: -100px;
     margin-left: 210px;
   }
   .camera_iPad_double {
-    width: 546px;
-    height: 730px;
-    background-size: 546px 730px;
-    background-image: url(https://www.apple.com/v/ipad-mini/i/images/overview/cameras__dpqn816ajys2_medium.png);
-    margin-top: -50px;
-    margin-left: -225px;
+    width: 329px;
+    height: 443px;
+    background-size: 329px 443px;
+    background-image: url(https://www.apple.com/v/ipad-mini/i/images/overview/cameras__dpqn816ajys2_small.png);
+    margin-top: -150px;
+    margin-left: 335px;
   }
   .camera.bottom-image {
-    width: 681px;
-    height: 480px;
-    background-size: 681px 480px;
-    background-image: url(https://www.apple.com/v/ipad-mini/i/images/overview/ipad_horizontal_black__fr9d4rhl74i2_large.png);
-    margin-top: -110px;
-    margin-left: 210px;
+    width: 417px;
+    height: 293px;
+    background-size: 417px 293px;
+    background-image: url(https://www.apple.com/v/ipad-mini/i/images/overview/ipad_horizontal_black__fr9d4rhl74i2_small.png);
+    margin-top: -70px;
+    margin-left: 310px;
   }
   .camera.bottom-image .image1 {
-    width: 455px;
-    height: 341px;
-    background-size: 455px 341px;
-    background-image: url(https://www.apple.com/v/ipad-mini/i/images/overview/cameras_shoot_edit__gg4c8m9qtouq_medium.jpg);
+    width: 278px;
+    height: 209px;
+    background-size: 278px 209px;
+    background-image: url(https://www.apple.com/v/ipad-mini/i/images/overview/cameras_shoot_edit__gg4c8m9qtouq_small.jpg);
     position: absolute;
-    top: 30px;
-    left: 83px;
+    top: 15px;
+    left: 40px;
   }
   .camera .image2 {
-    bottom: 28px;
-    right: 109px;
+    bottom: 8px;
+    right: 66px;
   }
   .camera.bottom-image .image2 {
     width: 170px;
     height: 27px;
     background-size: 170px 27px;
-    background-image: url(https://www.apple.com/v/ipad-mini/i/images/overview/cameras_snipe_03__bx9l0jt10she_medium.png);
-    bottom: 19px;
-    right: 105px;
+    background-image: url(https://www.apple.com/v/ipad-mini/i/images/overview/cameras_snipe_03__bx9l0jt10she_small.png);
+    bottom: -15px;
+    right: 235px;
   }
   .apple_pencil_column1 {
     position: absolute;
-    margin-top: -60px;
-    margin-left: 210px;
+    margin-top: -200px;
+    margin-left: 30px;
+  }
+  .row {
+    margin-right: -215px;
   }
   .apple-pencil.dinner {
-    width: 487px;
-    height: 674px;
-    background-size: 487px 674px;
-    top: 558px;
-    left: -50px;
-    background-image: url(https://www.apple.com/v/ipad-mini/i/images/overview/ipad_portrait_gold__c5s9rkve9ay6_medium.png);
+    width: 299px;
+    height: 413px;
+    background-size: 299px 413px;
+    top: 198px;
+    left: -30px;
+    background-image: url(https://www.apple.com/v/ipad-mini/i/images/overview/ipad_portrait_gold__c5s9rkve9ay6_small.png);
   }
   .apple-pencil.weekend {
-    width: 487px;
-    height: 674px;
-    background-size: 487px 674px;
-    top: 228px;
-    left: 360px;
+    width: 299px;
+    height: 413px;
+    background-size: 299px 413px;
+    top: -72px;
+    left: 250px;
     background-image: url(https://www.apple.com/v/ipad-mini/i/images/overview/ipad_portrait_gold__c5s9rkve9ay6_medium.png);
   }
   .apple-pencil.weekend.img-fluid .image2 {
     position: absolute;
-    top: 62px;
-    left: 23px;
-    width: 342px;
-    height: 455px;
-    background-size: 342px 455px;
-    background-repeat: no-repeat;
-    background-image: url(https://www.apple.com/v/ipad-mini/i/images/overview/apple_pencil_work_of_art__f0ihan2bovue_medium.jpg);
-  }
-  .apple-pencil.dinner.img-fluid .image2 {
-    position: absolute;
-    top: 62px;
-    left: 24px;
-    width: 342px;
-    height: 455px;
-    background-size: 342px 455px;
+    top: 38px;
+    left: 15px;
+    width: 209px;
+    height: 279px;
+    background-size: 209px 279px;
     background-repeat: no-repeat;
     background-image: url(https://www.apple.com/v/ipad-mini/i/images/overview/apple_pencil_notes__b2n075uczd5y_medium.jpg);
   }
+  .apple-pencil.dinner.img-fluid .image2 {
+    position: absolute;
+    top: 42px;
+    left: 14px;
+    width: 209px;
+    height: 279px;
+    background-size: 209px 279px;
+    background-repeat: no-repeat;
+    background-image: url(https://www.apple.com/v/ipad-mini/i/images/overview/apple_pencil_work_of_art__f0ihan2bovue_medium.jpg);
+  }
   .apple-pencil.dinner.img-fluid .image1 {
     left: 120px;
-    width: 215px;
-    height: 32px;
-    background-size: 215px 32px;
-    background-image: url(https://www.apple.com/v/ipad-mini/i/images/overview/apple_pencil_snipe_01__e7nz5yvm6ui6_medium.png)
+    width: 105px;
+    height: 62px;
+    background-size: 105px 62px;
+    margin-top: 580px;
+    margin-left: 160px;
+    background-image: url(https://www.apple.com/v/ipad-mini/i/images/overview/apple_pencil_snipe_01__e7nz5yvm6ui6_small.png)
   }
   .section-camera {
-    margin-top: 200px;
+    margin-top: 730px;
+    margin-left: -470px;
   }
   .apple-pencil.aestherica {
-    width: 681px;
-    height: 480px;
-    background-size: 681px 480px;
+    width: 417px;
+    height: 293px;
+    background-size: 417px 293px;
     background-repeat: no-repeat;
     background-image: url(https://www.apple.com/v/ipad-mini/i/images/overview/ipad_horizontal_silver__c2l1ltmney82_medium.png);
     position: relative;
-    top: -970px;
-    left: 400px;
+    top: -251px;
+    left: -150px;
   }
   .apple-pencil.aestherica.img-fluid .image2 {
     position: absolute;
-    top: 24px;
-    left: 63px;
-    width: 455px;
-    height: 341px;
-    background-size: 455px 341px;
+    top: 14px;
+    left: 43px;
+    width: 278px;
+    height: 209px;
+    background-size: 278px 209px;
     background-repeat: no-repeat;
     background-image: url(https://www.apple.com/v/ipad-mini/i/images/overview/apple_pencil_mark_up__k5jti4n6df2a_medium.jpg);
   }
@@ -3754,7 +3806,8 @@ margin-top: -100px;
     background-repeat: no-repeat;
     background-image: url(https://www.apple.com/v/ipad-mini/i/images/overview/apple_pencil_snipe_03__etn6kp51vwcy_medium.png);
     background-position: left;
-    top: 425px;
+    top: 255px;
+    left: 170px;
     position: absolute;
   }
   .section-iPadOS {
@@ -3767,74 +3820,86 @@ margin-top: -100px;
     background-repeat: no-repeat;
     background-image: url(https://www.apple.com/v/ipad-mini/i/images/overview/apple_pencil_snipe_02__buu6mhnryvle_medium.png);
     background-position: left;
-    top: 605px;
-    left: 0px;
+    top: 205px;
+    left: -220px;
     position: absolute;
   }
+  #iPadOS_p1 {
+    width: 420px;
+  }
+  .iPadOS-p {
+    width: 460px;
+  }
   .col-8.first-column {
+    margin-left: 40px;
+    margin-top: 60px;
+  }
+  .col-8.first-column.icloud {
     margin-left: 140px;
-    margin-top: 40px;
   }
   .iPadOS.open_house {
-    width: 681px;
-    height: 480px;
-    background-size: 681px 480px;
+    width: 417px;
+    height: 293px;
+    background-size: 417px 293px;
     background-repeat: no-repeat;
     background-image: url(https://www.apple.com/v/ipad-mini/i/images/overview/ipad_horizontal_silver__c2l1ltmney82_medium.png);
     position: relative;
-    margin-left: -100px;
-    margin-top: 130px;
+    margin-left: 40px;
+    margin-top: 510px;
   }
   .iPadOS.open_house .image1 {
     position: absolute;
-    left: 64px;
-    top: 24px;
-    width: 455px;
-    height: 341px;
-    background-size: 455px 341px;
+    left: 39px;
+    top: 14px;
+    width: 278px;
+    height: 209px;
+    background-size: 278px 209px;
     background-repeat: no-repeat;
     background-image: url(https://www.apple.com/v/ipad-mini/i/images/overview/ipados_multiple_apps__f6vtkjbcu6eu_medium.jpg);
   }
   .iPadOS.open_house .image2 {
     position: absolute;
-    width: 204px;
-    height: 28px;
-    background-size: 204px 28px;
+    width: 178px;
+    height: 25px;
+    background-size: 178px 25px;
     background-repeat: no-repeat;
     background-image: url(https://www.apple.com/v/ipad-mini/i/images/overview/ipados_snipe_01__ficqeh63gbu6_medium.png);
     background-position: center;
-    top: 466px;
-    left: 230px;
+    top: 286px;
+    left: 180px;
+  }
+  #apps_id1 {
+    width: 440px;
   }
   .iPadOS.for_you {
-    width: 487px;
-    height: 674px;
-    background-size: 487px 674px;
+    width: 299px;
+    height: 413px;
+    background-size: 299px 413px;
     background-repeat: no-repeat;
     background-image: url(https://www.apple.com/v/ipad-mini/i/images/overview/ipad_portrait_gold__c5s9rkve9ay6_medium.png);
     position: relative;
-    margin-left: 60px;
-    margin-top: 30px;
+    margin-left: -160px;
+    margin-top: 40px;
   }
   .iPadOS.for_you .image1 {
     position: absolute;
-    top: 63px;
-    left: 23px;
-    width: 342px;
-    height: 455px;
-    background-size: 342px 455px;
+    top: 39px;
+    left: 13px;
+    width: 209px;
+    height: 279px;
+    background-size: 209px 279px;
     background-repeat: no-repeat;
     background-image: url(https://www.apple.com/v/ipad-mini/i/images/overview/ipados_dock__ck9f8se80gnm_medium.jpg);
   }
   .iPadOS.iPadOS.for_you .image3 {
     position: absolute;
-    width: 60px;
-    height: 60px;
-    background-size: 60px 60px;
+    width: 28px;
+    height: 28px;
+    background-size: 28px 28px;
     background-repeat: no-repeat;
     background-image: url(https://www.apple.com/v/ipad-mini/i/images/overview/ipados_snipe_03__exk58gntalyu_medium.png);
     bottom: 5px;
-    left: 195px;
+    left: 135px;
   }
   .iPadOS.for_you .image2 {
     position: absolute;
@@ -3845,17 +3910,18 @@ margin-top: -100px;
     background-repeat: no-repeat;
     background-image: url(https://www.apple.com/v/ipad-mini/i/images/overview/ipados_snipe_02__bcxnoivi7xoy_medium.png);
     background-position: left;
-    top: 633px;
-    left: -20px;
+    top: 373px;
+    left: -80px;
   }
   .apps.image {
-    width: 1116px;
-    height: 888px;
-    background-size: 1116px 888px;
+    width: 587px;
+    height: 636px;
+    background-size: 587px 636px;
     background-repeat: no-repeat;
-    background-image: url(https://www.apple.com/v/ipad-mini/i/images/overview/apps__hyxuh0di6omu_medium.png);
+    background-image: url(https://www.apple.com/v/ipad-mini/i/images/overview/apps__hyxuh0di6omu_small.png);
     position: relative;
-    margin-left: -537px;
+    margin-left: -307px;
+    margin-top: -50px;
   }
   .app_column_left {
     margin-left: -270px;
@@ -3870,20 +3936,20 @@ margin-top: -100px;
     width: 540px;
   }
   .image.ipad-pro.iCloud {
-    width: 487px;
-    height: 674px;
-    background-size: 487px 674px;
+    width: 299px;
+    height: 413px;
+    background-size: 299px 413px;
     background-repeat: no-repeat;
     background-image: url(https://www.apple.com/v/ipad-mini/i/images/overview/ipad_portrait_silver__ea16xlv6jvgy_medium.png);
-    margin-left: -250px;
+    margin-left: -190px;
     margin-top: -70px;
   }
   .image.ipad-pro.iCloud .image1 {
-    margin-top: 64px;
-    margin-left: 23px;
-    width: 342px;
-    height: 455px;
-    background-size: 342px 455px;
+    margin-top: 38px;
+    margin-left: 14px;
+    width: 209px;
+    height: 279px;
+    background-size: 209px 279px;
     background-repeat: no-repeat;
     background-image: url(https://www.apple.com/v/ipad-mini/i/images/overview/icloud_files__edlqodgupmie_medium.jpg)
   }
@@ -3892,33 +3958,39 @@ margin-top: -100px;
   }
   .image.ipad-pro.iCloud .image2 {
     position: absolute;
-    width: 220px;
-    height: 39px;
-    background-size: 220px 39px;
+    width: 113px;
+    height: 46px;
+    background-size: 113px 46px;
     background-repeat: no-repeat;
-    background-image: url(https://www.apple.com/v/ipad-mini/i/images/overview/icloud_snipe_02__cwgk8lemn6s2_medium.png);
+    background-image: url(https://www.apple.com/v/ipad-mini/i/images/overview/icloud_snipe_02__cwgk8lemn6s2_small.png);
     background-position: right;
-    top: 552px;
-    left: -117px;
+    top: 332px;
+    left: -17px;
   }
   .image.ipad-air.iCloud {
-    width: 330px;
-    height: 520px;
-    background-size: 330px 520px;
+    width: 204px;
+    height: 321px;
+    background-size: 204px 321px;
     background-repeat: no-repeat;
-    background-image: url(https://www.apple.com/v/ipad-mini/i/images/overview/icloud__dw1pau8n3eye_medium.png);
-    margin-top: 82px;
-    margin-left: -126px;
+    background-image: url(https://www.apple.com/v/ipad-mini/i/images/overview/icloud__dw1pau8n3eye_small.png);
+    margin-top: 22px;
+    margin-left: -86px;
   }
   .image.ipad-air.iCloud .image1 {
     position: relative;
-    width: 175px;
-    height: 61px;
-    background-size: 175px 61px;
+    width: 126px;
+    height: 53px;
+    background-size: 126px 53px;
     background-repeat: no-repeat;
-    background-image: url(https://www.apple.com/v/ipad-mini/i/images/overview/icloud_snipe_01__b0x8f76kkknm_medium.png);
-    left: 31px;
-    top: 450px;
+    background-image: url(https://www.apple.com/v/ipad-mini/i/images/overview/icloud_snipe_01__b0x8f76kkknm_small.png);
+    left: 11px;
+    top: -60px;
+  }
+  .content-headline.sub_header.privacy_sub {
+    width: 500px;
+  }
+  #best_p_1 {
+    width: 300px;
   }
   .section-performance {
     margin-top: 180px;
@@ -3934,65 +4006,69 @@ margin-top: -100px;
     width: 630px;
   }
   .privacy_p {
-    width: 500px;
+    width: 400px;
     width: 550px;
     margin-left: 0px;
   }
   .privacy_text_image {
     position: absolute;
-    width: 306px;
-    height: 30px;
-    background-size: 306px 30px;
+    width: 247px;
+    height: 29px;
+    background-size: 247px 29px;
     background-repeat: no-repeat;
-    background-image: url(https://www.apple.com/v/ipad-mini/i/images/overview/privacy_snipe_02__bcr0uwwyc1du_medium.png);
+    background-image: url(https://www.apple.com/v/ipad-mini/i/images/overview/privacy_snipe_01__glf34yipgua2_small.png);
     background-position: right;
-    margin-top: 430px;
-    margin-left: 0px;
+    margin-top: 380px;
+    margin-left: -140px;
   }
   .image.performance.bottom {
-    width: 681px;
-    height: 480px;
-    background-size: 681px 480px;
+    width: 417px;
+    height: 293px;
+    background-size: 417px 293px;
+    margin-left: 110px;
+    margin-top: -300px;
     background-repeat: no-repeat;
     background-image: url(https://www.apple.com/v/ipad-mini/i/images/overview/ipad_horizontal_black__fr9d4rhl74i2_medium.png);
   }
   .image.performance.bottom.privacy .screen {
-    width: 455px;
-    height: 341px;
-    background-size: 455px 341px;
+    width: 278px;
+    height: 209px;
+    background-size: 278px 209px;
     background-repeat: no-repeat;
     position: absolute;
-    top: 23px;
-    left: 60px;
+    top: 14px;
+    left: 47px;
     background-image: url(https://www.apple.com/v/ipad-mini/i/images/overview/privacy_apple_pay__fpoutk8yidim_medium.jpg);
   }
-  .image.performance.bottom {
-    margin-left: 220px;
-    margin-top: -240px;
-  }
+
   .image.performance.bottom.privacy .image1 {
-    width: 293px;
-    height: 36px;
-    background-size: 293px 36px;
+    width: 241px;
+    height: 31px;
+    background-size: 241px 31px;
     background-repeat: no-repeat;
     background-position: left;
-    top: 430px;
-    left: -130px;
-    background-image: url(https://www.apple.com/v/ipad-mini/i/images/overview/privacy_snipe_01__glf34yipgua2_medium.png);
+    top: 270px;
+    left: -220px;
     position: absolute;
+    background-image: url(https://www.apple.com/v/ipad-mini/i/images/overview/privacy_snipe_02__bcr0uwwyc1du_small.png);
   }
   .desc-paragraph.privacy {
-    font-size: 28px;
-    line-height: 1.14286;
+    font-size: 21px;
+    line-height: 1.19048;
     font-weight: 600;
-    letter-spacing: .007em;
+    letter-spacing: .011em;
     font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
-    margin-top: 410px;
-    margin-left: 150px;
-    width: 490px;
+    margin-top: 180px;
+    margin-left: 60px;
+    width: 450px;
   }
   .icon-copy.privacy {
-    margin-left: 490px;
+    font-size: 19px;
+    line-height: 1.42115;
+    font-weight: 400;
+    letter-spacing: -.012em;
+    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    margin-left: 360px;
   }
   .section-performance.privacy {
     margin-top:550px;
@@ -4004,21 +4080,30 @@ margin-top: -100px;
     margin-top: -280px;
   }
   #empower_a {
-    margin-left: 200px;
+    margin-left: 80px;
+    margin-top: -90px;
   }
   .retina.empower {
-    width: 849px;
-    height: 890px;
-    background-size: 849px 890px;
+    width: 299px;
+    height: 413px;
+    background-size: 299px 413px;
     background-repeat: no-repeat;
-    background-image: url(https://www.apple.com/v/ipad-mini/i/images/overview/accessibility__cdsnequadhf6_medium.png);
+    background-image: url(https://www.apple.com/v/ipad-mini/i/images/overview/ipad_portrait_silver__ea16xlv6jvgy_small.png);
     position: relative;
-    margin-top: 680px;
-    margin-left: -200px;
+    margin-top: 730px;
+    margin-left: -260px;
+    margin-bottom: 100px;
   }
   .retina.empower .screen {
-    display: none;
+    display: inline;
+    width: 209px;
+    height: 279px;
+    margin-top: -44px;
+    margin-left: -17px;
+    background-size: 209px 279px;
+    background-image: url(https://www.apple.com/v/ipad-mini/i/images/overview/accessibility_control__dld6tpwkmj6u_small.jpg);
   }
+  
   .retina.empower .image1 {
     width: 101px;
     height: 45px;
@@ -4026,29 +4111,29 @@ margin-top: -100px;
     background-repeat: no-repeat;
     background-image: url(https://www.apple.com/v/ipad-mini/i/images/overview/accessibility_snipe_01__b253sd53boc2_medium.png);
     background-position: left;
-    top: 65px;
-    left: -20px;
+    top: 15px;
+    left: -60px;
   }
   .retina.empower .image3 {
-    width: 127px;
-    height: 51px;
-    background-size: 127px 51px;
+    width: 110px;
+    height: 49px;
+    background-size: 110px 49px;
     background-repeat: no-repeat;
-    background-image: url(https://www.apple.com/v/ipad-mini/i/images/overview/accessibility_snipe_02__bdqow7038k1u_medium.png);
+    background-image: url(https://www.apple.com/v/ipad-mini/i/images/overview/accessibility_snipe_02__bdqow7038k1u_small.png);
     background-position: right;
-    top: -12px;
-    left: 300px;
+    top: -62px;
+    left: 150px;
     position: absolute;
   }
   .retina.empower .image2 {
-    width: 135px;
-    height: 46px;
-    background-size: 135px 46px;
+    width: 188px;
+    height: 30px;
+    background-size: 188px 30px;
     background-repeat: no-repeat;
     background-position: right;
-    top: 90px;
-    left: -90px;
+    top: -10px;
+    left: 70px;
     position: absolute;
-    background-image: url(https://www.apple.com/v/ipad-mini/i/images/overview/accessibility_snipe_03__fjg7qyl73gq6_medium.png);
+    background-image: url(https://www.apple.com/v/ipad-mini/i/images/overview/accessibility_snipe_03__fjg7qyl73gq6_small.png);
   }
 }
