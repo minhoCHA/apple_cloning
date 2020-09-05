@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
         integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
         <link rel="stylesheet" href="styles.css">
+        <script src="script.js"></script>
         <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
     <title>Apple</title>
 </head>
@@ -80,7 +81,7 @@
                         <p class="content-headline sub_header sub_1068 sub_735" id="power_beyond">Power beyond its size.</p>
                     </div>
                     <div class="">
-                        <p class="content-paragraph performance p_1068 p_735 a12_p">The A12&nbsp;Bionic chip with Neural&nbsp;Engine enables a remarkable level of power and intelligence. It uses real-time machine learning to recognize patterns, make predictions, and learn from experience. With all this power, you can run apps like Adobe&nbsp;Photoshop CC,<a href="#footnote-1" class="footnote">*</a> experience augmented reality, or play an immersive game with console-level graphics.</p>
+                        <p class="content-paragraph performance p_1068 p_735 a12_p" id="power_beyond_p">The A12&nbsp;Bionic chip with Neural&nbsp;Engine enables a remarkable level of power and intelligence. It uses real-time machine learning to recognize patterns, make predictions, and learn from experience. With all this power, you can run apps like Adobe&nbsp;Photoshop CC,<a href="#footnote-1" class="footnote">*</a> experience augmented reality, or play an immersive game with console-level graphics.</p>
                     </div>
                 </div>
           </div>
@@ -177,8 +178,11 @@
                     <p class="content-headline sub_header sub_1068 sub_735"> Pencil meets mini. <br class="medium">Magic happens.</p>
                     <p class="content-paragraph apple-pencil-p p_1068 p_735">Apple&nbsp;Pencil opens up new possibilities for iPad&nbsp;mini.<sup><a href="#footnote-6" class="footnote">4</a></sup> Together they turn iPad mini into your take-anywhere digital notebook. Jot down notes, sign documents, and fill out forms. Or capture your most creative ideas by drawing, painting, or sketching on the&nbsp;go.</p>
                 </div>
+
                 <div class="images-wrapper column">
                     <figure class="apple-pencil dinner img-fluid">
+                <figure class="hand"></figure>
+
                         <figure class="image1"></figure>
                         <figure class="image2"></figure>
                     </figure>
@@ -244,7 +248,20 @@
                 </div>
             </div>
             <div class="apps bottom">
-                <figure class="apps image"></figure>
+                <figure class="apps image">
+                    <div class="name_image1">News</div>
+                    <div class="name_image2">Paper by WeTransfer</div>
+                    <div class="name_image3">Valleys Between</div>
+                    <div class="name_image4">Enlight Videoleap</div>
+                    <div class="name_image5">Amaziograph</div>
+                    <div class="name_image6">Apple Music</div>
+                    <div class="name_image7">JigSpace</div>
+                    <div class="name_image8">GoodNotes 5</div>
+                    <div class="name_image9">Microsoft Word</div>
+                    <div class="name_image10">GarageBand</div>
+                    <div class="name_image11">Morpholio Trace</div>
+                    <div class="name_image12">Adobe Lightroom CC</div>
+                </figure>
             </div>
         </div>
     </section>
@@ -262,7 +279,7 @@
                 </div>
                 <div class="row" id="iCloud-row2">
                     <div class="col">
-                        <p class="content-paragraph iCloud-p p_1068 p_735">iCloud keeps things like your photos, files, and notes safe, current, and conveniently available on all your devices.<sup><a href="#footnote-7" class="footnote">5</a></sup> And the Files&nbsp;app lets you manage all your files — in iCloud&nbsp;Drive and on your iPad&nbsp;mini — in one central&nbsp;location.</p>
+                        <p class="content-paragraph iCloud-p p_1068 p_735" id="iCloud_p_1">iCloud keeps things like your photos, files, and notes safe, current, and conveniently available on all your devices.<sup><a href="#footnote-7" class="footnote">5</a></sup> And the Files&nbsp;app lets you manage all your files — in iCloud&nbsp;Drive and on your iPad&nbsp;mini — in one central&nbsp;location.</p>
                         <a href="https://www.apple.com/ipados/" class="content-link-wrapper"><span class="content-link iCloud">Learn more about iCloud</span><span class="content-link-after"><i class="arrow"></i></span>
                           </a>
                     </div>
@@ -337,8 +354,8 @@
                         <p id="empower_id2" class="content-headline sub_header sub_1068 sub_735">Designed to empower everyone.</p>
                     </div>
                     <div class="empower_div">
-                        <p class="content-paragraph design p_1068 p_735">We believe technology is most powerful when everyone can use it. That’s why iPad mini comes with accessibility features that support vision, interaction, hearing, and learning needs. Like VoiceOver, which tells you what’s happening on your screen. Switch Control, which lets you interact with iPad mini without touching it. And Voice Control, which lets you control your iPad with just your voice.</p>
-                        <a href="https://www.apple.com/ipados/" class="content-link-wrapper arrow"><span class="content-link">Explore all accessibility features on iPad</span><span class="content-link-after"><i class="arrow"></i></a>
+                        <p class="content-paragraph design p_1068 p_735" id="accessibility_p">We believe technology is most powerful when everyone can use it. That’s why iPad mini comes with accessibility features that support vision, interaction, hearing, and learning needs. Like VoiceOver, which tells you what’s happening on your screen. Switch Control, which lets you interact with iPad mini without touching it. And Voice Control, which lets you control your iPad with just your voice.</p>
+                        <a href="https://www.apple.com/ipados/" class="content-link-wrapper arrow" id="last_link"><span class="content-link">Explore all accessibility features on iPad</span><span class="content-link-after"><i class="arrow"></i></a>
                     </div>
                 </div>
             </div>
@@ -371,8 +388,8 @@
     <!---------- Apple Pencil Section Starts ---------->
     <section class="container-fluid section section-desc section-apple-pencil-alpha">
         <div class="section-content">
-            <h2 class="content-headline">Apple Pencil</h2>
-            <p class="content-paragraph paragraph-size">Take unforgettable notes, mark up documents and photos, or draw and create with ease.</p>
+            <h2 class="content-headline headline_bottom_1068 headline_bottom_735">Apple Pencil</h2>
+            <p class="content-paragraph paragraph-size p_bottom_1068 p_bottom_735">Take unforgettable notes, mark up documents and photos, or draw and create with ease.</p>
             <a href="/us/shop/goto/product/MK0C2" class="content-link-wrapper arrow">
                 <span class="content-link">Buy</span>
                 <span class="content-link-after"></span>
@@ -385,8 +402,8 @@
     <!---------- Accessories Section Starts ---------->
     <section class="container-fluid section section-desc section-accessories">
         <div class="section-content">
-            <h2 class="content-headline">Accessories</h2>
-            <p class="content-paragraph paragraph-size">Explore cases, headphones, speakers, and more.</p>
+            <h2 class="content-headline headline_bottom_1068 headline_bottom_735">Accessories</h2>
+            <p class="content-paragraph paragraph-size p_bottom_1068 p_bottom_735">Explore cases, headphones, speakers, and more.</p>
             <a href="/us/shop/goto/product/MK0C2" class="content-link-wrapper arrow">
                 <span class="content-link">Shop iPad Accessories</span>
                 <span class="content-link-after"></span>
@@ -399,8 +416,8 @@
     <!---------- Ipad Section Starts ---------->
     <section class="container-fluid section section-desc section-ipad">
         <div class="section-content">
-            <h2 id="ipad_id_1" class="content-headline ipad">Get up to $180 toward a new iPad mini.</h2>
-            <p id="ipad_id_2" class="content-paragraph paragraph-size">With Apple Trade In, just give us your eligible iPad and get credit for a new one. It’s good for you and the planet.**</p>
+            <h2 id="ipad_id_1" class="content-headline ipad headline_bottom_1068 headline_bottom_735">Get up to $180 toward a new iPad mini.</h2>
+            <p id="ipad_id_2" class="content-paragraph paragraph-size p_bottom_1068 p_bottom_735">With Apple Trade In, just give us your eligible iPad and get credit for a new one. It’s good for you and the planet.**</p>
             <a href="/us/shop/goto/product/MK0C2" class="content-link-wrapper arrow">
                 <span class="content-link">Find your trade-in value</span>
                 <span class="content-link-after"></span>
@@ -415,7 +432,7 @@
     <!---------- Compare Section Starts ---------->
     <section class="container-fluid section section-desc section-compare">
         <div class="compare">
-            <h2 class="content-headline compare">Compare iPad models</h2>
+            <h2 class="content-headline compare headline_bottom_1068 headline_bottom_735">Compare iPad models</h2>
             <a href="/us/shop/goto/product/MK0C2" class="content-link-wrapper arrow">
                 <span class="content-link compare">Find the right iPad for you</span>
                 <span class="content-link-after"></span>
